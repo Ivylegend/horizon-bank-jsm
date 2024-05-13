@@ -24,7 +24,7 @@ import {
 } from "./ui/form";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
-import { BankDropdown } from "./BankDropDown";
+import { BankDropdown } from "./BankDropdown";
 
 const formSchema = z.object({
   email: z.string().email("Invalid email address"),
